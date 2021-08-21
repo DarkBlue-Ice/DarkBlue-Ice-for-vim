@@ -10,4 +10,4 @@
 
 ---
 
-Made by André V.
+Made by [André V.](https://github.com/Dedsd)
