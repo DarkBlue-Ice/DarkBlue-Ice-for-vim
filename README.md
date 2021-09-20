@@ -1,12 +1,19 @@
 ## DarkBlue Ice for vim
-![example](https://cdn.discordapp.com/attachments/774302890142597160/878389624190402600/unknown.png)
 
-### A Beautiful theme for vim with Dark blue and ice colors distributed in a harmonic way.
+<img src='images/example.jpg'>
+
+### A Beautiful theme for vim with dark blue and ice colors distributed in a harmonic way.
 
 ---
 
 ## How to install
-* Move `darkblueice.vim` to `/home/.vim/colors`
+* Download the `darkblueice.vim` file on [github releases](https://github.com/Dedsd/DarkBlue-Ice-for-vim/releases)
+* Move `darkblueice.vim` to `~/.vim/colors`
+* Make sure your `vimrc` or `.vim` file looks like this:
+```
+colorscheme darkblueice
+set termguicolors
+```
 
 ---
 
