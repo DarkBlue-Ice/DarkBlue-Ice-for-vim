@@ -10,21 +10,21 @@
         cmd('highlight '..group..' '..gui..' '..sp..' '..fg..' '..bg)
     end
     
-    local bg_normal   = '#2A2F3B'
+    local bg_normal   = '#39404D'
     local bg_darker   = '#39404D'
-    local bg_dark     = '#2A2F3B'
-    local bg          = '#292d3e'
+    local bg_dark     = '#39404D'
+    local bg          = '#39404D'
     local bg_light    = '#39404D'
-    local bg_lighter  = '#454E63'
+    local bg_lighter  = '#39404D'
     local grey        = '#919DB3'
-    local red         = '#cc5960'
-    local heavy_red   = '#9e242b'
-    local green       = '#65c96b'
-    local blue        = '#45b8e2'
+    local red         = '#BF616D'
+    local heavy_red   = '#BF616A'
+    local green       = '#A3BE8C'
+    local blue        = '#81A1C1'
     local yellow      = '#e9b552'
-    local orange      = '#f25b4c'
-    local purple      = '#ad5be4'
-    local cyan        = '#6fbfe1'
+    local orange      = '#D08770'
+    local purple      = '#B48EAD'
+    local cyan        = '#88C0D0'
     local fg          = '#A8B5CD'
     local fg_light    = '#a6accd'
     local fg_dark     = '#9FABBF'
@@ -42,6 +42,8 @@
     hi('DiffAdd'     , { fg = green })
     hi('DiffChange'  , { fg = yellow })
     hi('DiffDelete'  , { fg = red })
+    -- Nvim Tree
+    hi('NvimTreeNormal' , {fg = bg, bg = bg})
     hi('DiffText'    , { fg = blue })
     hi('EndOfBuffer' , { bg = bg_normal, fg = bg_dark })
     hi('ErrorMsg'    , { fg = red, gui = 'bold' })
