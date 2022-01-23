@@ -5,7 +5,7 @@
 ### A Beautiful theme for vim with dark blue and ice colors distributed in a harmonic way.
 
 ---
-* Warning: DarkBlue Ice for vim is using some colors of Nord, since DarkBlue Ice doesn't have any pallet wtih colors like green, yellow etc.
+* Warning: DarkBlue Ice for vim is using some colors of [Nord](https://github.com/arcticicestudio/nord), since DarkBlue Ice doesn't yet have any pallet with colors like green, yellow etc.
 ## How to install
 * Download the `darkblueice.vim` file on [github releases](https://github.com/Dedsd/DarkBlue-Ice-for-vim/releases)
 * Move `darkblueice.vim` to `~/.vim/colors`
